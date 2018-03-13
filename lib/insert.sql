@@ -1,4 +1,4 @@
-INSERT INTO series (title, author_id, subgenre_id) values 
+INSERT INTO series (title, author_id, subgenre_id) values
 ('Lord of the Rings', 1, 1), ('Game of Thrones',2,2);
 
 INSERT INTO subgenres (name) values ('Ancient'), ('Medieval');
