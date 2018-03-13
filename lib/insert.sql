@@ -1,4 +1,5 @@
-INSERT INTO series (title, author_id, subgenre_id) values ('Lord of the Rings', 1, 1), ('Game of Thrones',2,2);
+INSERT INTO series (title, author_id, subgenre_id) values 
+('Lord of the Rings', 1, 1), ('Game of Thrones',2,2);
 
 INSERT INTO subgenres (name) values ('Ancient'), ('Medieval');
 
@@ -17,8 +18,8 @@ INSERT INTO characters (name, motto, species, series_id, author_id) values
 ('Legolas', 'My bow!', 'Elf', 1,1),
 ('Boromir', 'My sword!', 'Human', 1, 1),
 ('Gandalf the White', 'My staff!', 'Wizard', 1,1),
-('Cersei', 'You\'re stupid', 'Human', 2,2),
-('Jon Snow', 'I\'m a bastard', 'Human',2,2),
+('Cersei', 'You are stupid', 'Human', 2,2),
+('Jon Snow', 'I am a bastard', 'Human',2,2),
 ('Ned Stark', 'I have principles', 'Human', 2,2),
 ('Viserion', 'Not invincible', 'Dragon', 2,2);
 
